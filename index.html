@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Spin the Wheel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wheel-container">
+      <div class="arrow" id="arrow"></div>
+      <div class="wheel" id="wheel">
+        <div class="segment" data-text="1<br>পুজোতে ফুচকা খাওয়াবে">1<br>পুজোতে ফুচকা খাওয়াবে</div>
+        <div class="segment" data-text="2<br>পুজোতে ঘুরতে নিয়ে যাবে">2<br>পুজোতে ঘুরতে নিয়ে যাবে</div>
+        <div class="segment" data-text="3<br>পুজোতে একসাথে অঞ্জলী">3<br>পুজোতে একসাথে অঞ্জলী</div>
+        <div class="segment" data-text="4<br>পুজোতে ম্যাচিং শাড়ী আর পাঞ্জাবি">4<br>পুজোতে ম্যাচিং শাড়ী আর পাঞ্জাবি</div>
+        <div class="segment" data-text="5<br>পুজোতে রোমান্স">5<br>পুজোতে রোমান্স</div>
+        <div class="segment" data-text="6<br>পুজোতে স্পেশাল সারপ্রাইজ">6<br>পুজোতে স্পেশাল সারপ্রাইজ</div>
+        <div class="segment" data-text="7<br>দশমীতে শিদুর খেলা">7<br>দশমীতে শিদুর খেলা</div>
+        <div class="segment" data-text="8<br>নবমীতে সারপ্রাইজ কিস">8<br>নবমীতে সারপ্রাইজ কিস</div>
+        <div class="segment" data-text="9<br>কিছুই না">9<br>কিছুই না</div>
+        <div class="segment" data-text="10<br>অনেককিছু">10<br>অনেককিছু</div>
+      </div>
+      <div id="glow-effect"></div>
+    </div>
+
+    <div class="board">
+      <ul>
+        <li>1. পুজোতে ফুচকা খাওয়াবে</li>
+        <li>2. পুজোতে ঘুরতে নিয়ে যাবে</li>
+        <li>3. পুজোতে একসাথে অঞ্জলী</li>
+        <li>4. পুজোতে ম্যাচিং শাড়ী আর পাঞ্জাবি</li>
+        <li>5. পুজোতে রোমান্স</li>
+        <li>6. পুজোতে স্পেশাল সারপ্রাইজ</li>
+        <li>7. দশমীতে শিদুর খেলা</li>
+        <li>8. নবমীতে সারপ্রাইজ কিস</li>
+        <li>9. কিছুই না</li>
+        <li>10. অনেককিছু</li>
+      </ul>
+    </div>
+  </div>
+  
+  <button id="spin-btn">SPIN IT BABY</button>
+  <div id="result"></div>
+
+  <canvas id="confetti"></canvas>
+
+  <script src="confetti.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
